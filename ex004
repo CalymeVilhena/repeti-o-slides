@@ -1,0 +1,12 @@
+#include <stdio.h>
+	int main(){
+		int n,tab,cont=1;
+			printf("Tabuada:");
+			scanf("%d",&n);
+				while(cont<11){
+					tab=n*cont;					
+					printf("%d x %d = %d \n",n,cont,tab);
+					cont++;
+				}
+	}
+		
