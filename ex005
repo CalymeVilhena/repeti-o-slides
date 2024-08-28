@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+
+	int main(){
+		float base=3,exp;
+		int cont=0;
+			
+			while(cont<=16){
+				exp=pow(base,cont);		
+				printf("%.2f elevado a %d e igual a: %.2f \n",base,cont,exp);
+				cont++;
+			
+			}
+		
+	}
